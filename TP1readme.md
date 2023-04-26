@@ -8,4 +8,5 @@ Suez One
 https://coolors.co/palette/0b3954-087e8b-bfd7ea-ff5a5f-c81d25
 
 ## Brand:
-Funny socks
+Funny socks (LogoSample.jpg)
+
