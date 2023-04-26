@@ -1,4 +1,4 @@
-# FUNNY SOCKS
+# TP1
 Es un ecommers dedicado a la venta de medias de todo tipo, tamaño y diseño.
 
 ## Tipogracia principal:
