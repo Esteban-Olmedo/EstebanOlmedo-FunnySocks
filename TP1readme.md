@@ -6,9 +6,10 @@ Suez One
 [Ver tipografia](tipografia.png)
 
 ## Paleta de colores:
-https://coolors.co/palette/0b3954-087e8b-bfd7ea-ff5a5f-c81d25
 [Ver paleta](paletaDeColores.png)
+URL: https://coolors.co/palette/0b3954-087e8b-bfd7ea-ff5a5f-c81d25
+
 
 ## Brand:
-Funny socks (LogoSample.jpg)
+Funny socks
 [Ver logo](LogoSample.jpg)
