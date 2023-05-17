@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+:root,
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "suez one";
+}
+
+body {
+    background-color: #BFD7EA;
+}
+
+h1 {
+    text-align: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+
+.navbar {
+    /* display: flex; */
+    /* align-items: baseline; */
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    background-color: #FF5A5F;
+    width: 100vw;
+    font-size: small;
+}
+
+
+.navbar-links {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    height: 50px;
+    align-items: center
+}
+
+/* .banner{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    /* transform: rotate(90deg); 
+} 
+*/
+.logo {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0B3954;
+    width: 100vw;
+
+}
+
+.logosample {
+    height: 100px;
+}
+
+.filauno {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: 1rem;
+}
+
+.producto div {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.producto div button {
+    background-color: #C81D25;
+    padding: 5px;
+    font-size: 12px;
+    border: none;
+    border-radius: 25px;
+}
+
+.filados {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* article {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    flex-direction: column;
+} */
+.imagen {
+    width: 150px;
+    height: 10rem;
+    border-radius: 25px;
+
+}
+
+.ofertas {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.ofertas article img {
+    width: 230px;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #FF5A5F;
+    width: 100vw;
+    font-size: small;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+footer div {
+    display: flex;
+    justify-content:space-between;
+}
+.footer-links {
+    padding-left: 30px;
+}
+.footer-iconos {
+    display: flex;
+    align-items: baseline;
+    gap: 80px;
+    padding-right: 30px;
+}
+
+@media (min-width: 1024px) {
+    .navbar {
+        flex-direction: row;
+    }
+    
+    
+    .navbar-links {
+        flex-direction: row;
+    }
+}
