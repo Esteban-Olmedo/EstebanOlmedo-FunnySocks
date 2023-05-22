@@ -43,65 +43,43 @@ li {
     align-items: center;
 
 }
-
-/* .banner{
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    /* transform: rotate(90deg); 
-} 
-*/
-.logo {
-    display: flex;
-    justify-content: space-around;
+/*  */
+.carrito {
     background-color: #0B3954;
-    width: 100vw;
-
+    color: white;
+    /* padding: 20px;
+    border: 50px;
+    gap: 20px; */
+    /* display: flex; */
+    /* justify-content: space-evenly;
+    flex-direction: row;  */
+    
 }
 
-.logosample {
-    height: 100px;
-}
-
-.filauno {
+.titulos {
+    font-size: 13px;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    padding-bottom: 10px;
 }
 
 .producto {
     display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    gap: 1rem;
-}
-
-.producto div {
-    display: flex;
-    justify-content: space-between;
-   
-}
-
-.producto div button {
-    background-color: #C81D25;
-    padding: 5px;
-    font-size: 12px;
-    border: none;
-    border-radius: 25px;
-}
-
-.filados {
-    display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    padding: 20px;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
 }
 
-/* article {
+.detalle {
     display: flex;
-    justify-content: space-around;
-    padding: 40px;
-    flex-direction: column;
-} */
+    align-items: center;
+    gap: 15px;
+}
+
 .imagen {
     width: 150px;
     height: 10rem;
@@ -109,14 +87,17 @@ li {
 
 }
 
-.ofertas {
+.total {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
 }
-.ofertas article img {
-    width: 230px;
+.total div button {
+    background-color: #C81D25;
+    padding: 5px;
+    font-size: 12px;
+    border: none;
     border-radius: 25px;
 }
 
@@ -139,7 +120,6 @@ footer div {
 }
 .footer-links {
     padding-left: 30px;
-    list-style: none;
 }
 .footer-iconos {
     display: flex;
@@ -147,15 +127,3 @@ footer div {
     gap: 80px;
     padding-right: 30px;
 }
-
-/* @media (min-width: 1024px) {
-
-    .navbar {
-        flex-direction: row;
-    }
-    
-    
-    .navbar-links {
-        flex-direction: row;
-    }
-} */
