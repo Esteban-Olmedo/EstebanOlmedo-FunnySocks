@@ -15,22 +15,30 @@ body {
 h1 {
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 li {
     list-style: none;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
 
 .navbar {
-    /* align-items: baseline; */
     align-items: center;
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
     background-color: #FF5A5F;
     width: 100vw;
     font-size: small;
+    justify-content: space-around;
 }
+
 
 
 .navbar-links {
@@ -41,12 +49,17 @@ li {
     gap: 10px;
     height: 50px;
     align-items: center;
+    align-self: flex-end;
 
 }
 /*  */
 .carrito {
     background-color: #0B3954;
     color: white;
+    width: 90%;
+    height: 90%;
+    border-radius: 25px;
+    
     /* padding: 20px;
     border: 50px;
     gap: 20px; */
@@ -63,6 +76,11 @@ li {
     justify-content: space-evenly;
     color: white;
     padding-bottom: 10px;
+    
+}
+
+.titulo1 {
+    flex-grow: 0.4;
 }
 
 .producto {
@@ -87,18 +105,43 @@ li {
 
 }
 
+.cantidad {
+    display: flex;
+    justify-content: space-between;
+    /* border: 5px solid black; */
+    padding: 10px;
+    font-size: 20px;
+    gap: 20px;
+}
+.botoncitos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    border: none;
+
+}
 .total {
     display: flex;
-    justify-content: center;
-    justify-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 15px;
+    padding-top: 80px;
+    
 }
 .total div button {
     background-color: #C81D25;
-    padding: 5px;
-    font-size: 12px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
     border: none;
     border-radius: 25px;
+    
 }
 
 footer {
@@ -126,4 +169,8 @@ footer div {
     align-items: baseline;
     gap: 80px;
     padding-right: 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
