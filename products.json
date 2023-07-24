@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nombre": "soquetes Mario Bros",
+    "precio": 500
+  },
+  {
+    "id": 2,
+    "nombre": "medias largas Los Simpson",
+    "precio": 500
+  },
+  {
+    "id": 3,
+    "nombre": "medias largas Pikachu",
+    "precio": 600
+  }
+]
