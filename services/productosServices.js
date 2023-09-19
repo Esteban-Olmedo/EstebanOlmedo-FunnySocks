@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+
 const readProducts = () => {
     const productos = fs.readFileSync("products.json");
     return JSON.parse(productos);
